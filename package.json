@@ -1,0 +1,15 @@
+{
+  "name": "node_streams",
+  "version": "1.0.0",
+  "description": "## Objectives Your objective is to create a server that can handle a post request to “/newsletter_signup” You must read and decode the request body (which will contain a name and email), and append the contact information to a csv file (your newsletter list) CONSTRAINT: When the client request is a “POST” method to the url “/newsletter_signup”, you will emit a ‘signup’ event. A listener associated with this event will handle your logic Getting Started",
+  "main": "exercise.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "isomorphic-fetch": "^3.0.0"
+  }
+}
